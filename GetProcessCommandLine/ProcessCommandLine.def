@@ -1,0 +1,5 @@
+LIBRARY ProcessCommandLine
+EXPORTS
+	GetProcessCommandLine
+	GetProcessCommandLineByPid
+	AdjustDebugPriviliges
