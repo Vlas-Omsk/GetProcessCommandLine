@@ -142,7 +142,7 @@
     <ClCompile Include="GetProcessCommandLine.Console.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GetProcessCommandLine\ProcCmdLine.vcxproj">
+    <ProjectReference Include="..\GetProcessCommandLine\ProcessCommandLine.vcxproj">
       <Project>{74f1ebba-5cda-4654-8d29-4e145b3fe5b6}</Project>
     </ProjectReference>
   </ItemGroup>

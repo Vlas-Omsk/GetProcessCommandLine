@@ -21,6 +21,9 @@
     <ClCompile Include="LibMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="ProcessCommandLine.def">
@@ -28,6 +31,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Main.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="ProcessCommandLine.h">
       <Filter>Header Files</Filter>
     </ClInclude>

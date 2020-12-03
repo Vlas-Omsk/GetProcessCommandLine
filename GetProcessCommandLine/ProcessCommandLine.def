@@ -3,3 +3,5 @@ EXPORTS
 	GetProcessCommandLine
 	GetProcessCommandLineByPid
 	AdjustDebugPriviliges
+	InitializeWindowsVersion
+	GetProcessHandle

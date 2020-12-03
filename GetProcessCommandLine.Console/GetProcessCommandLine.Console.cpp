@@ -13,8 +13,6 @@ std::vector<PROCESSENTRY32W> GetProcesses() {
         return (std::vector<PROCESSENTRY32W>)NULL;
     pe32.dwSize = sizeof(PROCESSENTRY32);
 
-    int i = 0;
-
     std::vector<PROCESSENTRY32W> ProcessEntries;
 
     while (Process32Next(hProcessSnap, &pe32))

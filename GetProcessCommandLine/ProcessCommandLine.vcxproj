@@ -163,11 +163,13 @@
   <ItemGroup>
     <ClCompile Include="LibMain.cpp" />
     <ClCompile Include="ProcessCommandLine.cpp" />
+    <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ProcessCommandLine.def" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Main.h" />
     <ClInclude Include="ProcessCommandLine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
